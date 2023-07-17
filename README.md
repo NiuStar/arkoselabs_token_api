@@ -8,3 +8,6 @@ arkoselabs token api共享
 新增两个服务器：<br/>
 https://gpttoken2.mukj.cn/token<br/>
 http://gpttoken.mukj.cn/token<br/>
+
+2023-7-17 新增服务器
+http://gpttoken3.mukj.cn/token
