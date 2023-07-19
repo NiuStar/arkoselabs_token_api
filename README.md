@@ -11,3 +11,5 @@ http://gpttoken.mukj.cn/token<br/>
 
 2023-7-17 新增服务器
 http://gpttoken3.mukj.cn/token
+
+开放镜像以便私有化部署
