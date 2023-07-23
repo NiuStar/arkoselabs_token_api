@@ -9,6 +9,7 @@ services:
       headless: "true"
       disableGpu: "true"
       openai_url: http://chat.openai.com
+      http_proxy=socks5://127.0.0.1:40000
       number_max: 10
       sleep: 1
       WebPort: 80
