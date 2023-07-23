@@ -2,16 +2,21 @@ version: '3'
 services:
   arkoselabs_token_api:
     container_name: arkoselabs_token_api
-    image: registry.cn-hangzhou.aliyuncs.com/nqc/arkoselabs_token_api:latest
+    image: registry.cn-hangzhou.aliyuncs.com/nqc/arkoselabs_token_api:playwright
     environment:
       PORT: 9094
       api: https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js
-      headless: true
-      disableGpu: true
-      openai_url: https://chat.openai.com/
+      headless: "true"
+      disableGpu: "true"
+      openai_url: http://chat.openai.com
       number_max: 10
       sleep: 1
+      WebPort: 80
     privileged: true
     ports:
       - 9094:9094
+    extra_hosts:
+      - "chat.openai.com:127.0.0.1"
+    volumes:
+      - ./cache:/root/.cache
     restart: unless-stopped
