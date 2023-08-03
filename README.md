@@ -1,5 +1,12 @@
 # arkoselabs_token_api
-arkoselabs token api共享
+
+使用方法，在支持访问到https://tcr9i.chat.openai.com的电脑上执行dokcer-compose up -d
+如何判断能否访问到https://tcr9i.chat.openai.com
+```curl -v https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js```
+
+然后可以使用http://localhost:8080/token获取到token
+
+## arkoselabs token api共享
 提供一个在线服务，可以获取到chatgpt的arkoselabsToken
 
 接口地址为：http://1.tcp.vip.cpolar.top:10102/token（已取消）<br/>
