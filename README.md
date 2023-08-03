@@ -18,3 +18,5 @@ http://gpttoken3.mukj.cn/token（已取消）
 https://gpttoken2.mukj.cn/token<br/>
 http://gpttoken.mukj.cn/token<br/>
 这两台服务器可用
+
+大户请联系yjkj02@gmail.com，不联系的大户会被限流
