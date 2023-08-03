@@ -1,6 +1,6 @@
 # arkoselabs_token_api
 
-##自建token池
+## 自建token池
 
 使用方法，在支持访问到https://tcr9i.chat.openai.com的电脑上执行dokcer-compose up -d
 如何判断能否访问到https://tcr9i.chat.openai.com
@@ -9,7 +9,7 @@
 
 然后可以使用http://localhost:8080/token获取到token
 
-##docker-compose.yaml
+## docker-compose.yaml
 
 ```
 version: '3'
