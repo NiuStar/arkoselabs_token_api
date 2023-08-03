@@ -26,7 +26,7 @@ services:
     volumes:
       - ./cache:/root/.cache
     restart: unless-stopped
-  arkoselabs_token_api:
+  arkoselabs_token_api.get:
     container_name: arkoselabs_token_api.v2
     image: registry.cn-hangzhou.aliyuncs.com/nqc/arkoselabs_token_api.v2:latest
     environment:
