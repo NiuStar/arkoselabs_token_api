@@ -18,7 +18,6 @@ services:
       sql_userName: root
       sql_port: 3306
       sql_password: mysql密码
-      CLASH_PORXY: 代理地址
     privileged: true
     ports:
       - 9095:9095
