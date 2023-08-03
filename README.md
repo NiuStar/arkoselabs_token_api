@@ -3,7 +3,7 @@
 使用方法，在支持访问到https://tcr9i.chat.openai.com的电脑上执行dokcer-compose up -d
 如何判断能否访问到https://tcr9i.chat.openai.com
 
-```go curl -v https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js```
+```curl -v https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js```
 
 然后可以使用http://localhost:8080/token获取到token
 
