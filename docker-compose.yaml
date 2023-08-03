@@ -26,3 +26,14 @@ services:
     volumes:
       - ./cache:/root/.cache
     restart: unless-stopped
+  arkoselabs_token_api:
+    container_name: arkoselabs_token_api.v2
+    image: registry.cn-hangzhou.aliyuncs.com/nqc/arkoselabs_token_api.v2:latest
+    environment:
+      sql_host: mysqlIP
+      sql_userName: root
+      sql_port: 3306
+      sql_password: mysql密码
+    ports:
+      - 8080:8080
+    restart: unless-stopped
