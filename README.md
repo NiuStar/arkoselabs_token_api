@@ -22,7 +22,10 @@ services:
       sql_userName: root
       sql_port: 3306
       sql_password: mysql密码
-  
+      db: false
+      http_proxy: http://localhost:40000
+    volumes:
+      - ./chat.openai.com.har:/home/app/chat.openai.com.har
     ports:
       - 8080:8081
     restart: unless-stopped
