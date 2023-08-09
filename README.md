@@ -22,9 +22,6 @@ services:
       sql_userName: root
       sql_port: 3306
       sql_password: mysql密码
-      userbrowser: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
-      capi_version: 1.5.4
-      pk: MacIntel
   
     ports:
       - 8080:8081
