@@ -47,8 +47,8 @@ http://gpttoken3.mukj.cn/token（已取消）
 开放镜像以便私有化部署
  2023-08-02
 目前只有
-https://gpttoken2.mukj.cn/token<br/>
-http://gpttoken.mukj.cn/token<br/>
+https://gpttoken2.mukj.cn/token?key=xxx<br/>
+http://gpttoken.mukj.cn/token?key=xxx<br/>
 这两台服务器可用
-
+如果需要key请联系yjkj02@gmail.com
 大户请根据docker-compose自建服务器，如需使用公共服务器，请联系yjkj02@gmail.com，不联系的大户会被限流
