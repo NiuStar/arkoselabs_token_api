@@ -1,5 +1,8 @@
 # arkoselabs_token_api
 
+#升级
+2023-09-20 升级支持官网最新1.5.5版本
+
 ## 自建token池
 
 使用方法，在支持访问到https://tcr9i.chat.openai.com的电脑上执行dokcer-compose up -d
