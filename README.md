@@ -1,7 +1,13 @@
 # arkoselabs_token_api
 
-#升级
-2023-09-20 升级支持官网最新1.5.5版本
+# 升级
+## 2023-09-27 升级
+支持login处的arkoselabs_token生成，修改放置多个har至har目录中
+目前有两个接口，分别为：
+http://localhost:8080/token
+http://localhost:8080/login_token
+
+## 2023-09-20 升级支持官网最新1.5.5版本
 
 ## 自建token池
 
@@ -28,7 +34,7 @@ services:
       db: false
       http_proxy: http://localhost:40000
     volumes:
-      - ./chat.openai.com.har:/home/app/chat.openai.com.har
+      - ./har目录:/home/app/har
     ports:
       - 8080:8081
     restart: unless-stopped
