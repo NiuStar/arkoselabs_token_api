@@ -1,6 +1,18 @@
 # arkoselabs_token_api
 
 # 升级
+
+## 2023-09-28 升级
+已测试支持platform的登录，使用login_token接口
+
+支持new api ke的token生成
+
+http://localhost:8080/newapikey_token
+
+支持更多其他token的生成，需上传对应的har
+
+http://localhost:8080/other_token?pk=23AAD243-4799-4A9E-B01D-1166C5DE02DF
+
 ## 2023-09-27 升级
 支持login处的arkoselabs_token生成，修改放置多个har至har目录中
 
