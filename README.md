@@ -2,6 +2,16 @@
 
 # 升级
 
+## 2023-10-08 升级
+1）增加http://localhost:8080/api/login登录接口
+
+参数为json格式的：
+
+{ "email":"XXX", "password":"XXX" }
+
+2）去除了内置har，内置har使用太多，易失效，建议使用自己的
+
+
 ## 2023-09-28 升级
 已测试支持platform的登录，使用login_token接口
 
