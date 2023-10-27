@@ -36,7 +36,7 @@
     - 开发者工具会记录所有的网络请求。
 
 6. **保存HAR文件**：
-    - 确保需要的(https://tcr9i.chat.openai.com/fc/gt2/public_key/35536E1E-65B4-4D96-9D97-6ADB7EFF8147)网络请求已经完成。
+    - 确保需要的(https://tcr9i.chat.openai.com/fc/gt2/public_key/35536E1E-65B4-4D96-9D97-6ADB7EFF8147) 网络请求已经完成。
     - 在Network选项卡中的任何地方右键点击，选择“Save as HAR with content”。
     - 选择保存位置，并为文件命名（默认是 `www.example.com.har`）。
     - 点击“保存”。
