@@ -75,8 +75,8 @@ services:
 请求方式为get<br/>
 
 新增两个服务器：<br/>
-https://gpttoken2.mukj.cn/token<br/>
-http://gpttoken.mukj.cn/token<br/>
+https://gpttoken2.mukj.cn/token （已取消）<br/>
+http://gpttoken.mukj.cn/token （已取消）<br/>
 
 2023-7-17 新增服务器
 http://gpttoken3.mukj.cn/token（已取消）
