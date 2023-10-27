@@ -68,6 +68,9 @@ services:
 ## arkoselabs token api共享
 提供一个在线服务，可以获取到chatgpt的arkoselabsToken
 
+2023年10月27日：最新接口地址为：https://arktoken.ai00.xyz/token?key=XXXXX
+
+
 接口地址为：http://1.tcp.vip.cpolar.top:10102/token（已取消）<br/>
 请求方式为get<br/>
 
