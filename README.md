@@ -1,6 +1,8 @@
 # arkoselabs_token_api
 
 # 升级
+## 2023-11-08更新： 
+新增自动生成接口文档接postman文档 公共接口文档地址为：https://showdoc.ai00.xyz/web/#/676794187/170896388
 
 ## 2023-10-08 升级
 1）增加http://localhost:8080/api/login登录接口
@@ -91,6 +93,9 @@ services:
       sql_password: mysql密码
       db: false
       http_proxy: http://localhost:40000
+      showdoc_uri = https://showdoc.ai00.xyz
+      showdoc_username = "test"
+      showdoc_password = "123456"
     volumes:
       - ./har目录:/home/app/har
     ports:
