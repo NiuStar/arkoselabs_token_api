@@ -3,10 +3,13 @@
 # 升级
 ## 2023-11-08更新： 
 新增自动生成接口文档接postman文档 
+
 需配置docker环境变量：
+```yaml
       showdoc_uri: https://showdoc.ai00.xyz
       showdoc_username: test
       showdoc_password: 123456
+```
 公共接口文档地址为：https://showdoc.ai00.xyz/web/#/676794187/170896388
 
 ## 2023-10-08 升级
