@@ -1,31 +1,5 @@
 version: '3'
 services:
-  arkoselabs_token_api:
-    container_name: arkoselabs_token_api
-    image: 24802117/arkoselabs_token_api:latest
-    environment:
-      PORT: 9095
-      api: https://tcr9i.chat.openai.com/v2/35536E1E-65B4-4D96-9D97-6ADB7EFF8147/api.js
-      headless: "true"
-      disableGpu: "true"
-      openai_url: https://chat.openai.com/chat?model=gpt4
-      number_max: 1
-      sleep: 5
-      db: "true"
-      WebPort: 443
-      suffix: /chat
-      sql_host: mysqlIP
-      sql_userName: root
-      sql_port: 3306
-      sql_password: mysql密码
-    privileged: true
-    ports:
-      - 9095:9095
-    extra_hosts:
-      - "chat.openai.com:127.0.0.1"
-    volumes:
-      - ./cache:/root/.cache
-    restart: unless-stopped
   arkoselabs_token_api.get:
     container_name: arkoselabs_token_api.get
     image: 24802117/arkoselabs_token_api.get:latest
@@ -34,6 +8,13 @@ services:
       sql_userName: root
       sql_port: 3306
       sql_password: mysql密码
+      db: false
+      http_proxy: http://localhost:40000
+      showdoc_uri: https://showdoc.ai00.xyz
+      showdoc_username: test
+      showdoc_password: 123456
+    volumes:
+      - ./har目录:/home/app/har
     ports:
-      - 8080:8080
+      - 8080:8081
     restart: unless-stopped
