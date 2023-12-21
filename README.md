@@ -1,6 +1,11 @@
 # arkoselabs_token_api
 
 # 升级
+
+## 2023-12-21更新： 
+更新支持最新的2.3.1接口，需上传最新的har，调用会话的arkoseToken的时候需在header中增加Authorization，以支持最新的dx参数
+
+
 ## 2023-12-13更新： 
 支持最新版2.3.1
 
